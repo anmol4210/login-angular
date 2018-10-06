@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-submitbtn',
@@ -6,8 +6,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./submitbtn.component.css']
 })
 export class SubmitbtnComponent implements OnInit {
-
-  constructor() { }
+@Input() btn:any;
+  constructor() {
+    
+   }
 
   ngOnInit() {
   }

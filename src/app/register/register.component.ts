@@ -6,8 +6,15 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./register.component.css']
 })
 export class RegisterComponent implements OnInit {
+  submitbtn:any;
 hello:string="text-danger";
-  constructor() { }
+  constructor() {
+    this.submitbtn={
+      btnname:"signup",
+      btnclass:"signup"
+
+    }
+   }
 
   ngOnInit() {
   }

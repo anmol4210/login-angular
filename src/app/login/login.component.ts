@@ -6,8 +6,15 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./login.component.css']
 })
 export class LoginComponent implements OnInit {
+  loginbtn:any;
+  constructor() {
+    this.loginbtn={
+      btnname:"login",
+      btnclass:"login"
 
-  constructor() { }
+    }
+  
+   }
 
   ngOnInit() {
   }
